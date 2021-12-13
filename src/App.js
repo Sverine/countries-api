@@ -9,9 +9,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="https://sverine.github.io/countries-api/" element={<Home/>}/>
-        <Route path="https://sverine.github.io/countries-api/a-propos" element={<About/>}/>
-        <Route path="https://sverine.github.io/countries-api/news" element={<News/>}/>
+        <Route path="/countries-api/" element={<Home/>}/>
+        <Route path="/countries-api/a-propos" element={<About/>}/>
+        <Route path="/countries-api/news" element={<News/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </Router>
